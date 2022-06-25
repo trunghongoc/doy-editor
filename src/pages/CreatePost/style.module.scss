@@ -1,0 +1,33 @@
+.page {
+  display: block;
+
+  $rightWidth: 240px;
+
+  .left {
+    float: left;
+    width: calc(100% - $rightWidth);
+    box-sizing: border-box;
+    padding-right: 16px;
+
+    .permalink {
+      margin-top: 12px;
+    }
+
+    .addMedia {
+      margin-top: 12px;
+    }
+
+    .quill {
+      margin-top: 12px;
+    }
+  }
+
+  .right {
+    float: left;
+    width: $rightWidth;
+
+    &::after {
+      clear: both;
+    }
+  }
+}

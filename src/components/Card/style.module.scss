@@ -1,0 +1,15 @@
+@import '../../scss/color';
+
+.card {
+  border: 1px solid $borderGrayColor;
+  border-radius: 0.4rem;
+
+  .header {
+    padding: 6px;
+    border-bottom: 1px solid $borderGrayColor;
+  }
+
+  .body {
+    padding: 6px;
+  }
+}
